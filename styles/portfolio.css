@@ -1,0 +1,25 @@
+nav {
+    display: flex;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.nav-ferdous{
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800px;
+    line-height: normal;
+}
+
+.text-praimary{
+    color: #FD630A;
+}
+
+nav > ul{
+    display: flex;
+}
+
+nav > li{
+    list-style: none;
+    margin-right: 50px;
+}
