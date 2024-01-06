@@ -104,7 +104,7 @@ nav{
     padding: 130px;
     border-radius: 10px;
     background: #FFF8F3;
-    margin: 0 130px;
+    margin: 0 120px;
 }
 .ti{
     color:#181818;
@@ -118,4 +118,19 @@ nav{
 .section-description{
     color: #757575;
     text-align: center;
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.about-info-c{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info{
+    text-align: center;
+    padding: 20px;
 }
