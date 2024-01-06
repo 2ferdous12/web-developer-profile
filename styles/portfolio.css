@@ -19,7 +19,11 @@ nav > ul{
     display: flex;
 }
 
-nav > li{
+nav li{
     list-style: none;
     margin-right: 50px;
+}
+li > .button-primary{
+   background: #FD630A; 
+   border-radius: 5px;
 }
