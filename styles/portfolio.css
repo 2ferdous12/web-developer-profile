@@ -17,6 +17,7 @@ body{
 
 nav > ul{
     display: flex;
+    vertical-align: center;
 }
 
 nav li{
@@ -26,4 +27,39 @@ nav li{
 li > .button-primary{
    background: #FD630A; 
    border-radius: 5px;
+   border: 0;
+   font-size: 20px;
+   font-weight: bold;
+   color: white;
+   padding: 15px 35px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:0 200px;
+}
+.header{
+    background-color:#FFF8F3; 
+}
+
+.banner{
+    padding: 30px 30px 30px 150px ;
+    display: flex;
+    align-items: center;
+}
+
+.button-primary{
+    background: #FD630A; 
+    border-radius: 5px;
+    border: 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    padding: 15px 35px;
+}
+
+.banner .profile-picture{
+    width: 500px;
 }
